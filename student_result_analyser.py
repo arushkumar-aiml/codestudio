@@ -1,11 +1,14 @@
-n=int(input("enter the marks:-"))
+marks=int(input("enter the marks:-"))
 
-if n<=100 and n >=80:
+if marks<=100 and marks >=80:
     print("grade A")
-elif n<=80 and n>=60:
+elif marks<=80 and marks>=60:
     print("grade B")
-if n<=60 and n>=40:
+if marks<=60 and marks>=40:
     print("grade C")
+elif marks<0 or marks>100:
+    print("invalid marks")
 else:
     print("fail")
+
 
